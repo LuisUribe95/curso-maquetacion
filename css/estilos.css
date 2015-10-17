@@ -63,3 +63,40 @@ nav ul li :hover
 	margin-top: 10px;
 	padding: 10px;
 }
+
+.Profile
+{
+	text-align: center;
+}
+.Profile .Profile-title
+{
+	
+	padding:0 0 15px 0;
+	color: #00DBFF;
+	border-bottom: 2px dashed #00DBFF;
+}
+
+.Profile .Profile-link
+{
+	background: orange;
+	
+	padding: 6px 12px;
+	border-radius: 30px;
+	margin: 0 10px;
+}
+.Work
+{
+	text-align: center;
+}
+
+.Work .Work-item
+{
+	width: 300px;
+	display: inline-block;
+	margin: 0;
+}
+
+.Work .Work-item img
+{
+	width: 100%;
+}
