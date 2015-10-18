@@ -76,13 +76,16 @@ nav ul li :hover
 	border-bottom: 2px dashed #00DBFF;
 }
 
-.Profile .Profile-link
+
+
+.Profile .Profile-link img
 {
-	background: orange;
-	
-	padding: 6px 12px;
-	border-radius: 30px;
-	margin: 0 10px;
+	text-align: right;
+	display: inline-block;
+	width: 50px;
+	padding: 2px 4px;
+	border-radius: 200px;
+	margin: 0 2px;
 }
 .Work
 {
