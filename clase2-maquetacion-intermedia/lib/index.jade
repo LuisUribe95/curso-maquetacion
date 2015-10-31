@@ -4,38 +4,44 @@ html(lang="en")
 		meta(charset = "UTF-8")
 		title LUIS FRANCISCO
 		link(rel="stylesheet" type="text/css" href="css/estilos.css")
+		link(rel="stylesheet" type="text/css" href="css/fonts.css")
 	body
 		section.Perfil
 			header.Perfil-header
 				figure.Perfil-header-figure
 					img
-					figcaption
-					figcaption
-				article.Perfil-contacto
-					ul
-						a
-							li.Perfil-contacto-tel
-								i
-								span (844) 208 5016
-						a
-							li.Perfil-contacto.email
-								i
-								span uribe_morelos@hotmail.com
-						a
-							li.Perfil-contacto-contratar
-								i
-								span Contratar
-			artice.Perfil-RedesSociales
+					div.Perfil-header-figure-figcaptions
+						figcaption luis uribe
+						figcaption estudiante
+			article.Perfil-contacto
 				ul
-					a
-						li.Perfil-RedesSociales-twt
-							i
-					a
-						li.Perfil-RedesSociales-fb
-							i
-					a
-						li.Perfil-RedesSociales-git
-							i
+					li.Perfil-contacto-telefono
+							a(href="tel:+528442085016")
+								i.icon-telefono
+								span (844) 208 5016
+					li.Perfil-contacto-email
+							a(href="mailto:uribe_morelos@hotmai.com")
+								i.icon-email
+								span uribe_morelos@hotmail.com
+					li.Perfil-contacto-contratar
+							a(href="#")
+								i.icon-contratar
+								span Contratar
+			article.Perfil-RedesSociales
+				ul
+					li.Perfil-RedesSociales-twt
+							a(href="#" target="_blank")
+								i.icon-fb
+								span @LUISURIBE
+					li.Perfil-RedesSociales-fb
+							a(href="https://www.facebook.com/luisfrancisco.uribemorelos" target="_blank")
+								i.icon-twt
+								span @LUISURIBE
+					li.Perfil-RedesSociales-git
+							a(href="https://github.com/LuisUribe95" target="_blank")
+								i.icon-git
+								span @LuisUribe95
+			//article#map.Perfil-mapa
 		section.Contenido
 			article.Contenido-Skill
 				div.Contenido-Skill-info
@@ -45,5 +51,6 @@ html(lang="en")
 				div.Contenido-Skill-info
 					h2.Contenido-Skill-info-titulo Desarrollo Web
 					p.Contenido-Skill-info-desc Curso Desarollo web en jade
-
+		script(src="https://maps.googleapis.com/maps/api/js")
+		script(src="./js/app.js")
 
